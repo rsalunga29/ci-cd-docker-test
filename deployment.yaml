@@ -13,10 +13,10 @@ spec:
     metadata:
       labels:
         app: test-gke
-      spec:
-        containers:
-        - name: test-gke
-          image: gcr.io/PROJECT_ID/IMAGE:TAG
-          ports:
+    spec:
+      containers:
+      - name: test-gke
+        image: gcr.io/PROJECT_ID/IMAGE:TAG
+        ports:
           - containerPort: 5000
 
